@@ -1,0 +1,93 @@
+/*barra de nav*/
+
+.navbar{
+	padding: 2rem;
+	background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+	align-items: center;
+	justify-content: space-between;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	font-size: 2.5rem;
+	font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-oscura{
+	background-color: #1b1b32;
+	color: white;
+}
+
+.seccion-clara{
+	color: black;
+	background-color: white;
+}
+
+.seccion-titulo{
+	font-size: 2rem;
+	padding: 15px 0;
+	font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto{
+	font-size: 1.2rem;
+}
+
+.hero{
+	background-color: #f5f6f7;
+	min-height: 450px;
+	text-align: center;
+}
+
+.hero-pricipal{
+	padding: 3rem;
+}
+
+.hero-imagen-desarrollador{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.hero-principal h2{
+	font-size: 1.5rem;
+	color: #615151;
+}
+
+.sobre-mi{
+	height: 500px;
+	padding: 10px;
+}
+
+.sobre-mi .contenedor{
+	max-width: 600px;
+	text-align: center;
+}
+
+.experiencia{
+	padding: 40px;
+}
+
+
+
+@media screen and (max-width: 767px){
+	.navbar-brand{
+		display: none;
+	}
+}
+
+@media screen and(min-width: 700px){
+	.hero-inferior .hero-inferior-imagen{
+		max-width: 600px;
+	}
+}
