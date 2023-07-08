@@ -1,0 +1,46 @@
+.hero{
+	margin-top: 100px;
+	min-height: 450px;
+	text-align: center;
+}
+
+.hero-pricipal{
+	padding: 3rem;
+}
+
+.hero h1{
+	margin-top: 200px;
+}
+
+.hero-imagen-desarrollador{
+	margin: 20px;
+	float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+    filter: grayscale(100%);
+    background-color: gray;
+    transition: background-color 0.3s ease;
+}
+
+.imagen-modoNoche{
+	filter: grayscale(0);
+    background-color: violet;
+    transition: background-color 0.3s ease;
+}
+
+.hero-imagen-desarrollador:hover{
+	filter: grayscale(100%);
+  	transition: filter 0.3s ease;
+  	background-color: violet;
+}
+
+.hero-principal h2{
+	font-size: 1.5rem;
+	color: #615151;
+}
+
+@media screen and(min-width: 700px){
+	.hero-inferior .hero-inferior-imagen{
+		max-width: 600px;
+	}
+}

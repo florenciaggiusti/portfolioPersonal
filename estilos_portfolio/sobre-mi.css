@@ -1,0 +1,17 @@
+.sobre-mi{
+	height: 500px;
+	padding: 10px;
+}
+
+.sobre-mi .contenedor{
+	max-width: 600px;
+	text-align: center;
+}
+
+/*.sobre-mi .seccion-titulo, .seccion-texto{
+	color:violet;
+}*/
+
+.texto-oscuro{
+	color:white;
+}

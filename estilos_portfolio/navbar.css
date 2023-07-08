@@ -1,0 +1,43 @@
+.navbar{
+	padding: 0.5rem;
+	position: fixed;
+	top: 0;
+ 	width: 100%;
+ 	backdrop-filter: blur(10px);
+}
+
+/*.navbar a{
+	color: black;
+	transition: background-color 0.3s ease;
+}*/
+
+.mode{
+	color: #fff;
+}
+
+.navbar .bi{
+	font-size: 50px;
+	cursor:pointer;
+	transition: background-color 0.3s ease;
+}
+
+.lunaNoche{
+	color: white;
+	transition: color 0.3s ease;
+}
+
+.navbar-collapse{
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+@media screen and (max-width: 767px){
+	.navbar-brand{
+		display: none;
+	}
+
+	.navbar{
+		position: static;
+	}
+}
